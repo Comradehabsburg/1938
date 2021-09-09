@@ -1,0 +1,10 @@
+combat width removed
+
+RIVER_CROSSING_PENALTY = -0.15,                 -- small river crossing
+RIVER_CROSSING_PENALTY_LARGE = -0.25,           -- large river crossing
+
+ENCIRCLED_"PENALTY" = 0.1,                      -- penalty when completely encircled
+
+SLOWEST_SPEED = 0.001,
+
+SUPPLY_GRACE = 300,							   -- troops always carry 3 days of food and supply
