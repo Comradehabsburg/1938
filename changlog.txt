@@ -8,3 +8,5 @@ ENCIRCLED_"PENALTY" = 0.1,                      -- penalty when completely encir
 SLOWEST_SPEED = 0.001,
 
 SUPPLY_GRACE = 300,							   -- troops always carry 3 days of food and supply
+
+UNIT_LEADER_ASSIGN_TRAIT_COST = 0,	
