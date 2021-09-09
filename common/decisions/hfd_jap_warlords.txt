@@ -1,0 +1,260 @@
+hfd_jap_warlords = {
+
+
+   Jap_annex_YUN = {
+   
+   icon = jap_conquer_china
+		
+		visible = {
+		country_exists = YUN
+
+        has_game_rule = {
+		rule = RULE_JAPAN_COMPLIANCE_HELP
+		option = RULE_OPTION_COMPLIANCE_HELP
+		}
+		
+		}
+		
+	    available = {
+		
+		   NOT = {
+		   country_exists = CHI	
+		   } 
+		   
+		   core_compliance = {
+           occupied_country_tag = CHI
+           value > 30
+           }
+		}
+		
+		cost = 5
+		
+	    fire_only_once = yes
+				
+		complete_effect = {
+		
+		 JAP = { annex_country = { target = YUN transfer_troops = no } }
+		 
+		 325 = {set_compliance = 25}
+		 747 = {set_compliance = 25}
+		 
+		}
+
+   }
+   
+      Jap_annex_GXC = {
+   
+   icon = jap_conquer_china
+		
+		visible = {
+		country_exists = GXC
+		
+        has_game_rule = {
+		rule = RULE_JAPAN_COMPLIANCE_HELP
+		option = RULE_OPTION_COMPLIANCE_HELP
+		}	
+		
+		}
+		
+	    available = {
+		
+		   NOT = {
+		   country_exists = CHI	
+		   }	
+		   
+		   core_compliance = {
+           occupied_country_tag = CHI
+           value > 30
+		   }
+		   
+		}
+		
+		cost = 5
+		
+	    fire_only_once = yes
+		
+		complete_effect = {
+		JAP = { annex_country = { target = GXC transfer_troops = no } }
+		
+		599 = {set_compliance = 25}
+		593 = {set_compliance = 25}
+		592 = {set_compliance = 25}
+		594 = {set_compliance = 25}
+		591 = {set_compliance = 25}
+		
+		}
+
+   }
+   
+      Jap_annex_XSM = {
+   
+   icon = jap_conquer_china
+		
+		visible = {
+		country_exists = XSM
+		
+        has_game_rule = {
+		rule = RULE_JAPAN_COMPLIANCE_HELP
+		option = RULE_OPTION_COMPLIANCE_HELP
+		}		
+		
+		}
+		
+	    available = {
+		
+		   NOT = {
+		   country_exists = CHI	
+		   }	
+		   
+		   core_compliance = {
+           occupied_country_tag = CHI
+           value > 30
+		   }
+		   
+		}
+		
+		cost = 5
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+		JAP = { annex_country = { target = XSM transfer_troops = no } }
+		
+		753 = {set_compliance = 25}
+		283 = {set_compliance = 25}
+		754 = {set_compliance = 25}
+		604 = {set_compliance = 25}
+		755 = {set_compliance = 25}
+		616 = {set_compliance = 25}
+		756 = {set_compliance = 25}
+		
+		}
+
+   }
+   
+      Jap_annex_PRC = {
+   
+   icon = jap_conquer_china
+		
+		visible = {
+		country_exists = PRC
+		
+        has_game_rule = {
+		rule = RULE_JAPAN_COMPLIANCE_HELP
+		option = RULE_OPTION_COMPLIANCE_HELP
+		}	
+		
+		}
+		
+	    available = {
+		   NOT = {
+		   country_exists = CHI	
+		   }	
+		   
+		   core_compliance = {
+           occupied_country_tag = CHI
+           value > 30
+           }   		   
+		}
+		
+		cost = 5
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+		JAP = { annex_country = { target = PRC transfer_troops = no } }
+		
+		622 = {set_compliance = 25}
+		
+		}
+
+   }
+   
+         Jap_annex_SHX = {
+   
+   icon = jap_conquer_china
+		
+		visible = {
+		country_exists = SHX
+		
+        has_game_rule = {
+		rule = RULE_JAPAN_COMPLIANCE_HELP
+		option = RULE_OPTION_COMPLIANCE_HELP
+		}	
+		
+		}
+		
+	    available = {
+		
+		   NOT = {
+		   country_exists = CHI	
+		   }
+		   
+		   core_compliance = {
+           occupied_country_tag = CHI
+           value > 30
+           }
+		   
+		}
+		
+		cost = 5
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+		JAP = { annex_country = { target = SHX transfer_troops = no } }
+		
+		615 = {set_compliance = 25}
+		621 = {set_compliance = 25}
+		746 = {set_compliance = 25}
+		
+		}
+
+   }
+   
+         Jap_annex_SIK = {
+   
+   icon = jap_conquer_china
+		
+		visible = {
+		country_exists = SIK
+		
+        has_game_rule = {
+		rule = RULE_JAPAN_COMPLIANCE_HELP
+		option = RULE_OPTION_COMPLIANCE_HELP
+		}	
+		
+		}
+		
+	    available = {
+		
+		   NOT = {
+		   country_exists = CHI	
+		   }		
+		   
+		   core_compliance = {
+           occupied_country_tag = CHI
+           value > 30
+           }
+		   
+		}
+		
+		cost = 5
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+	    JAP = { annex_country = { target = SIK transfer_troops = no } }
+		
+		759 = {set_compliance = 25}
+		760 = {set_compliance = 25}
+		617 = {set_compliance = 25}
+		618 = {set_compliance = 25}
+		619 = {set_compliance = 25}
+		287 = {set_compliance = 25}
+		
+		}
+
+   }
+
+}

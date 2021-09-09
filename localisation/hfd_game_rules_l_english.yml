@@ -1,0 +1,32 @@
+﻿l_english:
+### HFD GROUP ###
+ RULE_GROUP_HFD:0 "HFD Game Rules"
+
+
+## RULE Grinding Help ##
+ RULE_GRINDING_HELP:0 "Grinding help"
+ 
+# DEFAULT OPTION #
+ RULE_OPTION_NO_GRINDING_HELP_TEXT:0 "Vanilla"
+ RULE_OPTION_NO_GRINDING_HELP_DESC:0 "Traits can not be unlocked through decisions, choose this if you want vanilla exprience"
+
+# ALLOWED OPTION #
+ RULE_OPTION_ALLOWED_GRINDING_HELP_TEXT:0 "Allowed"
+ RULE_OPTION_ALLOWED_GRINDING_HELP_DESC:0 "Soviet and Germany can unlock traits through decisions at the cost of army experience. Choose this if you want to reduce the impact of failed grind"
+
+
+#Japan compliance
+
+#group
+#HFD main group
+
+#rule
+ RULE_JAPAN_COMPLIANCE_HELP:"Japan compliance help"
+ 
+#Default
+RULE_OPTION_NO_COMPLIANCE_HELP_TEXT:"Vanilla"
+RULE_OPTION_NO_COMPLIANCE_HELP_DESC:"The japan player is way to good to get any help "
+
+#modded
+RULE_OPTION_COMPLIANCE_HELP_TEXT:"Allowed"
+RULE_OPTION_COMPLIANCE_HELP_DESC:"Japan will get decisions, that give compensation if warlords are not in the peace deal"

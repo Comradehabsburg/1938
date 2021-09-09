@@ -1,0 +1,212 @@
+guiTypes = {
+
+	containerWindowType = {
+		
+		name = "topbar_rs_button_container"
+		position = { x = 200 y = 12 }
+
+		buttonType = {
+			name = "topbar_rs_button"
+			spriteType = "GFX_generic_checkbox2"
+			orientation = "UPPER_LEFT"
+			buttonText = ""
+			buttonFont = "Main_14_black"
+			clicksound = click_checkbox
+		}
+
+		instantTextBoxType = {
+			name = "topbar_rs_button_text"
+			font = "hoi_18mbs"
+			position = { x = 40 y = 5 }
+			borderSize = {x = 0 y = 0}
+			maxWidth = 140
+			maxHeight = 18
+			text = "Resources display"
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+	}
+
+
+
+
+
+	containerWindowType = {
+		name = "topbar_rs_container"
+		position = { x=-4 y=-1 }	
+		size = { width=100%% height=100%% }
+		
+		
+		###Aluminium
+		iconType ={
+			name ="aluminium_balance_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=971 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="aluminium_icon"
+			spriteType = "GFX_resources_strip"
+			position = { x=976 y=5}
+			Orientation = "UPPER_LEFT"
+			frame = 2
+		}		
+		
+		instantTextBoxType = {
+			name ="aluminium_balance"
+			position = { x=993 y=9 }
+			font = "hoi_18mbs"
+			text = "[?resource@aluminium|$0+]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "aluminium_balance_tooltip"
+		}
+		
+		###Rubber
+		iconType ={
+			name ="rubber_balance_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=1043 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="rubber_icon"
+			spriteType = "GFX_resources_strip"
+			position = { x=1048 y=6}
+			Orientation = "UPPER_LEFT"
+			frame = 3
+			scale = 0.9
+		}		
+		
+		instantTextBoxType = {
+			name ="rubber_balance"
+			position = { x=1065 y=9 }
+			font = "hoi_18mbs"
+			text = "[?resource@rubber|$0+]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "rubber_balance_tooltip"
+		}
+		
+		###Tungsten
+		iconType ={
+			name ="tungsten_balance_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=1115 y=4 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="tungsten_icon"
+			spriteType = "GFX_resources_strip"
+			position = { x=1120 y=5}
+			Orientation = "UPPER_LEFT"
+			frame = 4
+			scale = 0.9
+		}		
+		
+		instantTextBoxType = {
+			name ="tungsten_balance"
+			position = { x=1137 y =9 }
+			font = "hoi_18mbs"
+			text = "[?resource@tungsten|$0+]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "tungsten_balance_tooltip"
+		}
+		
+		###Steel
+		iconType ={
+			name ="steel_balance_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=1187 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="steel_icon"
+			spriteType = "GFX_resources_strip"
+			position = { x=1192 y=5 }
+			Orientation = "UPPER_LEFT"
+			frame = 5
+		}		
+		
+		instantTextBoxType = {
+			name ="steel_balance"
+			position = { x=1209 y=9 }
+			font = "hoi_18mbs"
+			text = "[?resource@steel|$0+]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "steel_balance_tooltip"
+		}
+		
+		###Chromium
+		iconType ={
+			name ="chromium_balance_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=1259 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="chromium_icon"
+			spriteType = "GFX_resources_strip"
+			position = { x=1264 y=6 }
+			Orientation = "UPPER_LEFT"
+			frame = 6
+			scale = 0.9
+		}		
+		
+		instantTextBoxType = {
+			name ="chromium_balance"
+			position = { x=1281 y=9 }
+			font = "hoi_18mbs"
+			text = "[?resource@chromium|$0+]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "chromium_balance_tooltip"
+		}
+		
+		# ###Commercial Balance
+		# iconType ={
+			# name ="civ_balance_bg"
+			# spriteType = "GFX_generic_box_smallest"
+			# position = { x=1331 y=5 }
+			# Orientation = "UPPER_LEFT"
+		# }
+		
+		# iconType = {
+			# name ="civ_icon"
+			# spriteType = "GFX_traded_factories_icon"
+			# position = { x=1336 y=8 }
+			# Orientation = "UPPER_LEFT"
+			# scale = 0.5
+		# }		
+		
+		# instantTextBoxType = {
+			# name ="civ_balance"
+			# position = { x=1353 y=9 }
+			# font = "hoi_18mbs"
+			# text = "[?resource_imported|$0+]"
+			# format = center
+			# maxWidth = 46
+			# maxHeight = 24
+			# fixedsize = yes
+			# pdx_tooltip = "civ_balance_tooltip"
+		# }
+	}
+
+}

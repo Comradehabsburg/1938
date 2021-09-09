@@ -1,0 +1,740 @@
+hfd_grinding = {
+
+	#Fedor von Bock grind
+	GER_von_bock_ranger = {
+		allowed = {
+			original_tag = GER
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 9 #Fedor von Bock
+				NOT = { has_trait = ranger }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50			
+		}
+		
+		fire_only_once = yes
+		
+		icon = GFX_trait_ranger
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 9 #Fedor von Bock
+						NOT = { has_trait = ranger }
+					}					
+				add_unit_leader_trait = ranger
+			}
+			army_experience = -50
+		}	
+	}
+	
+	GER_von_bock_urban_assault = {
+		allowed = {
+			original_tag = GER
+		}	
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 9 #Fedor von Bock
+				NOT = { has_trait = urban_assault_specialist }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_urban_assault_specialist
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+					has_id = 9 #Fedor von Bock
+					NOT = { has_trait = urban_assault_specialist }
+				}
+				add_unit_leader_trait = urban_assault_specialist
+			}
+			army_experience = -50
+		}	
+	}
+
+	GER_von_bock_engineer = {
+		allowed = {
+			original_tag = GER
+		}		
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 9 #Fedor von Bock
+				NOT = { has_trait = trait_engineer }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50		
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trait_engineer
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 9 #Fedor von Bock
+						NOT = { has_trait = trait_engineer }
+					}
+					
+				add_unit_leader_trait = trait_engineer
+			}
+			army_experience = -50
+		}	
+	}
+
+	GER_von_bock_trickster = {
+		allowed = {
+			original_tag = GER
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 9 #Fedor von Bock
+				NOT = { has_trait = trickster }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50		
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trickster
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 9 #Fedor von Bock
+						NOT = { has_trait = trickster }
+					}
+					
+				add_unit_leader_trait = trickster
+			}
+			army_experience = -50
+		}	
+	}
+	
+	GER_von_bock_panzer = {
+		allowed = {
+			original_tag = GER
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 9 #Fedor von Bock
+				NOT = { has_trait = panzer_leader }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50		
+		}
+		
+		fire_only_once = yes
+		
+		icon = GFX_trait_panzer_leader
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 9 #Fedor von Bock
+						NOT = { has_trait = panzer_leader }
+					}
+					
+				add_unit_leader_trait = panzer_leader
+			}
+			army_experience = -50
+		}	
+	}
+
+	#Hasso von Manteuffel grind
+	GER_manteuffel_ranger = {
+		allowed = {
+			original_tag = GER
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 25 #Hasso von Manteuffel
+				NOT = { has_trait = ranger }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50			
+		}
+		
+		fire_only_once = yes
+		
+		icon = GFX_trait_ranger
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 25 #Hasso von Manteuffel
+						NOT = { has_trait = ranger }
+					}					
+				add_unit_leader_trait = ranger
+			}
+			army_experience = -50
+		}	
+	}
+	
+	GER_manteuffel_urban_assault = {
+		allowed = {
+			original_tag = GER
+		}	
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 25 #Hasso von Manteuffel
+				NOT = { has_trait = urban_assault_specialist }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50	
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_urban_assault_specialist
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+					has_id = 25 #Hasso von Manteuffel
+					NOT = { has_trait = urban_assault_specialist }
+				}
+				add_unit_leader_trait = urban_assault_specialist
+			}
+			army_experience = -50
+		}	
+	}
+
+	GER_manteuffel_engineer = {
+		allowed = {
+			original_tag = GER
+		}		
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 25 #Hasso von Manteuffel
+				NOT = { has_trait = trait_engineer }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50			
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trait_engineer
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 25 #Hasso von Manteuffel
+						NOT = { has_trait = trait_engineer }
+					}
+					
+				add_unit_leader_trait = trait_engineer
+			}
+			army_experience = -50
+		}	
+	}
+
+	GER_manteuffel_trickster = {
+		allowed = {
+			original_tag = GER
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 25 #Hasso von Manteuffel
+				NOT = { has_trait = trickster }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50		
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trickster
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 25 #Hasso von Manteuffel
+						NOT = { has_trait = trickster }
+					}
+					
+				add_unit_leader_trait = trickster
+			}
+			army_experience = -50
+		}	
+	}
+	
+	GER_manteuffel_panzer = {
+		allowed = {
+			original_tag = GER
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 25 #Hasso von Manteuffel
+				NOT = { has_trait = panzer_leader }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50			
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_panzer_leader
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 25 #Hasso von Manteuffel
+						NOT = { has_trait = panzer_leader }
+					}
+					
+				add_unit_leader_trait = panzer_leader
+			}
+			army_experience = -50
+		}	
+	}
+	
+	#Georgy Zhukov grind
+	SOV_zhukov_ranger = {
+		allowed = {
+			original_tag = SOV
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 410 #Georgy Zhukov
+				NOT = { has_trait = ranger }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50			
+		}
+		
+		fire_only_once = yes
+		
+		icon = GFX_trait_ranger
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 410 #Georgy Zhukov
+						NOT = { has_trait = ranger }
+					}					
+				add_unit_leader_trait = ranger
+			}
+			army_experience = -50
+		}	
+	}
+	
+	# SOV_zhukov_urban_assault = {
+		# allowed = {
+			# original_tag = SOV
+		# }	
+		
+		# visible = {
+		
+		# }		
+		
+		# available = {
+			# has_army_experience > 50
+		# }
+
+		# fire_only_once = yes
+		
+		# cost = 0
+		# complete_effect = {
+			# every_unit_leader = {
+				# limit = {
+					# has_id = 410 #Georgy Zhukov
+					# NOT = { has_trait = urban_assault_specialist }
+				# }
+				# add_unit_leader_trait = urban_assault_specialist
+			# }
+			# army_experience = -50
+		# }	
+	# }
+
+	SOV_zhukov_engineer = {
+		allowed = {
+			original_tag = SOV
+		}		
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 410 #Georgy Zhukov
+				NOT = { has_trait = trait_engineer }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50		
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trait_engineer
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 410 #Georgy Zhukov
+						NOT = { has_trait = trait_engineer }
+					}
+					
+				add_unit_leader_trait = trait_engineer
+			}
+			army_experience = -50
+		}	
+	}
+
+	SOV_zhukov_trickster = {
+		allowed = {
+			original_tag = SOV
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 410 #Georgy Zhukov
+				NOT = { has_trait = trickster }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50			
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trickster
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 410 #Georgy Zhukov
+						NOT = { has_trait = trickster }
+					}
+					
+				add_unit_leader_trait = trickster
+			}
+			army_experience = -50
+		}	
+	}
+	
+	SOV_zhukov_panzer = {
+		allowed = {
+			original_tag = SOV
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 410 #Georgy Zhukov
+				NOT = { has_trait = panzer_leader }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50			
+		}
+		
+		fire_only_once = yes
+		
+		icon = GFX_trait_panzer_leader
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 410 #Georgy Zhukov
+						NOT = { has_trait = panzer_leader }
+					}
+					
+				add_unit_leader_trait = panzer_leader
+			}
+			army_experience = -50
+		}	
+	}
+
+	#Ivan Konev grind
+	SOV_konev_ranger = {
+		allowed = {
+			original_tag = SOV
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 408 #Ivan Konev
+				NOT = { has_trait = ranger }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50		
+		}
+		
+		fire_only_once = yes
+		
+		icon = GFX_trait_ranger
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 408 #Ivan Konev
+						NOT = { has_trait = ranger }
+					}					
+				add_unit_leader_trait = ranger
+			}
+			army_experience = -50
+		}	
+	}
+	
+	# SOV_konev_urban_assault = {
+		# allowed = {
+			# original_tag = SOV
+		# }	
+		
+		# visible = {
+		
+		# }		
+		
+		# available = {
+			# has_army_experience > 50
+		# }
+
+		# fire_only_once = yes
+		
+		# cost = 0
+		# complete_effect = {
+			# every_unit_leader = {
+				# limit = {
+					# has_id = 408 #Ivan Konev
+					# NOT = { has_trait = urban_assault_specialist }
+				# }
+				# add_unit_leader_trait = urban_assault_specialist
+			# }
+			# army_experience = -50
+		# }	
+	# }
+
+	SOV_konev_engineer = {
+		allowed = {
+			original_tag = SOV
+		}		
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 408 #Ivan Konev
+				NOT = { has_trait = trait_engineer }					
+			}			
+		}
+		
+		available = {
+			has_army_experience > 50			
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trait_engineer
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 408 #Ivan Konev
+						NOT = { has_trait = trait_engineer }
+					}
+					
+				add_unit_leader_trait = trait_engineer
+			}
+			army_experience = -50
+		}	
+	}
+
+	SOV_konev_trickster = {
+		allowed = {
+			original_tag = SOV
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 408 #Ivan Konev
+				NOT = { has_trait = trickster }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50		
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_trickster
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 408 #Ivan Konev
+						NOT = { has_trait = trickster }
+					}
+					
+				add_unit_leader_trait = trickster
+			}
+			army_experience = -50
+		}	
+	}
+	
+	SOV_konev_panzer = {
+		allowed = {
+			original_tag = SOV
+		}
+		
+		visible = {
+			has_game_rule = {
+				rule = RULE_GRINDING_HELP
+				option = RULE_OPTION_ALLOWED_GRINDING_HELP
+			}
+			any_unit_leader = {
+				has_id = 408 #Ivan Konev
+				NOT = { has_trait = panzer_leader }					
+			}			
+		}		
+		
+		available = {
+			has_army_experience > 50
+		}
+
+		fire_only_once = yes
+		
+		icon = GFX_trait_panzer_leader 
+		
+		cost = 0
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+						has_id = 408 #Ivan Konev
+						NOT = { has_trait = panzer_leader }
+					}
+					
+				add_unit_leader_trait = panzer_leader
+			}
+			army_experience = -50
+		}	
+	}	
+}

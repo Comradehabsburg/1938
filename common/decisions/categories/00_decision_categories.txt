@@ -1,0 +1,889 @@
+debug_decisions = {
+	icon = generic_research
+
+	allowed = {
+		is_debug = yes
+	}	
+	visible = {
+		is_debug = yes
+	}
+}
+propaganda_efforts = {
+	icon = generic_propaganda
+	
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI
+		}
+	}	
+	visible = {
+
+	}
+}
+MTG_naval_treaties = {
+	picture = GFX_decision_cat_picture_naval_treaties
+	allowed = {
+		has_dlc = "Man the Guns"
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+	visible = {
+		OR = {
+			has_naval_treaty_trigger = yes
+			is_major = yes
+		}
+		any_owned_state = {
+			is_coastal = yes
+		}
+	}
+}
+SAF_anti_colonialist_crusade = {
+	allowed = {
+		original_tag = SAF
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+}
+
+war_measures = {
+	icon = generic_propaganda
+
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+	visible = {
+		has_war = yes
+	}
+}
+operations = {
+	icon = GFX_decision_category_military_operation
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+}
+
+foreign_support = {
+	icon = generic_political_actions
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+}
+
+prestigious_projects = {
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+}
+
+foreign_politics = {
+	icon = generic_political_actions
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+}
+
+political_actions = {
+	icon = generic_political_actions
+
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+}
+
+foreign_influence = {
+	icon = generic_political_actions
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+}
+
+fascism_on_the_rise = {
+	icon = generic_fascism
+
+	allowed = {
+		NOT = {
+			AND = {
+				has_dlc = "Man the Guns"
+				OR = {
+					original_tag = USA
+					original_tag = MEX
+					original_tag = ENG
+				}
+			}
+		}
+	}
+	
+	#visible = {
+	#	NOT = { has_government = fascism }
+	#	has_idea_with_trait = fascist_demagogue
+	#}
+}
+
+democratic_on_the_rise = {
+	icon = generic_democracy
+
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+	
+	#visible = {
+	#	NOT = { has_government = democratic }
+	#	has_idea_with_trait = democratic_reformer
+	#}
+}
+
+communism_on_the_rise = {
+	icon = generic_communism
+
+	allowed = {
+		NOT = {
+			AND = {
+				has_dlc = "Man the Guns"
+				OR = {
+					original_tag = USA
+					original_tag = MEX
+					original_tag = ENG
+				}
+			}
+		}
+	}
+	
+	#visible = {
+	#	NOT = { has_government = communism }
+	#	has_idea_with_trait = communist_revolutionary
+	#}
+}
+
+crisis = {
+	icon = generic_crisis
+	priority = 100
+	allowed = {
+		is_ai = no
+	}	
+	visible = {
+		OR = {
+			has_country_flag = crisis_in_progress
+			has_civil_war = yes
+		}
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}		
+	}
+}
+
+demobilization = {
+	icon = generic_crisis
+	priority = 100
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+	visible = {
+		has_war = no
+	}
+}
+
+economy_decisions = {
+	icon = generic_economy
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+
+}
+
+prospect_for_resources = {
+	icon = generic_prospect_for_resources
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+}
+
+special_projects = {
+	
+	icon = generic_prospect_for_resources
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+}
+
+governments_in_exile = {
+	
+	icon = generic_formable_nations
+	picture = GFX_decision_cat_picture_government_in_exile
+	allowed = {
+		has_dlc = "Man the Guns"
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+}
+
+category_exile_forces = {
+	
+	icon = infiltration
+	picture = GFX_decision_cat_picture_government_in_exile
+	allowed = {
+		has_dlc = "Man the Guns"
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+}
+category_test_decisions = {
+	priority = 110
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}	
+	visible = {
+		is_debug = yes
+	}
+}
+
+lar_local_recruitment = {
+	allowed = { 
+		has_dlc = "La Resistance" 
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = BUL
+			original_tag = MAN
+			original_tag = SIA
+			original_tag = SPR
+			original_tag = SOV
+			original_tag = FRA
+			original_tag = ENG
+			original_tag = USA
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = CAN
+			original_tag = RAJ
+			original_tag = SAF
+			original_tag = AST
+			original_tag = IRE
+			original_tag = NZL
+			original_tag = ARG
+			original_tag = NOR
+			original_tag = PHI			
+		}
+	}
+
+	visible = { has_done_agency_upgrade = upgrade_training_centers }
+
+	visibility_type = map_and_decisions_view
+	
+	on_map_area = {
+		state = 8
+		name = LAR_recruitment_europe
+		zoom = 650
+		
+		target_root_trigger = {
+			OR = {
+				has_country_flag = europe_recruitment_unlocked
+				capital_scope = { is_on_continent = europe }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 373
+		name = LAR_recruitment_north_america
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = north_america_recruitment_unlocked
+				capital_scope = { is_on_continent = north_america }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 487
+		name = LAR_recruitment_south_america
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = south_america_recruitment_unlocked
+				capital_scope = { is_on_continent = south_america }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 295
+		name = LAR_recruitment_africa
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = africa_recruitment_unlocked
+				capital_scope = { is_on_continent = africa }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 597
+		name = LAR_recruitment_asia
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = asia_recruitment_unlocked
+				capital_scope = { is_on_continent = asia }
+			}
+			NOT = {
+				tag = RAJ
+				tag = PAK
+				tag = BAN
+				tag = NEP
+				tag = BHU
+				tag = SRL
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 521
+		name = LAR_recruitment_oceania
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = australia_recruitment_unlocked
+				capital_scope = { is_on_continent = australia }
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 439
+		name = LAR_recruitment_india
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = india_recruitment_unlocked
+				tag = RAJ
+				tag = PAK
+				tag = BAN
+				tag = NEP
+				tag = BHU
+				tag = SRL
+			}
+		}
+	}
+
+	on_map_area = {
+		state = 656
+		name = LAR_recruitment_middle_east
+		zoom = 850
+
+		target_root_trigger = {
+			OR = {
+				has_country_flag = middle_east_recruitment_unlocked
+				capital_scope = { is_on_continent = middle_east }
+			}
+		}
+	}
+}
+
+hfd_grinding = {
+
+	icon = GFX_decision_generic_army_support
+	
+	allowed = {
+		OR = {
+			original_tag = SOV
+			original_tag = GER
+		}
+	}
+	visible = {
+
+	}
+}
+
+hfd_jap_warlords = {
+
+icon = GFX_decision_generic_army_support 
+   
+   allowed = { 
+         original_tag = JAP
+    }
+	
+    visible = {
+
+	}
+}

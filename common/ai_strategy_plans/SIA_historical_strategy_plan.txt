@@ -1,0 +1,39 @@
+SIA_historical_plan = {
+	name = "Siam HFD historical plan"
+	desc = "Historical behavior for France"
+
+	enable = {
+		original_tag = SIA
+	}
+
+
+	ai_national_focuses = {
+	political_effort
+	industrial_effort
+	construction_effort
+	construction_effort_2
+	infrastructure_effort
+	construction_effort_3
+	infrastructure_effort_2
+	}
+	
+
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

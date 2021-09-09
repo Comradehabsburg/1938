@@ -1,0 +1,41 @@
+scripted_gui = {
+	
+	topbar_rs_button_container = {
+		context_type = player_context
+		window_name = "topbar_rs_button_container"
+		parent_window_token = trade_tab
+
+		properties = {
+			topbar_rs_button = {
+				frame = rs_status?2
+			}
+		}
+
+		effects = {
+			topbar_rs_button_click = {
+				if = {
+					limit = {
+						check_variable = { rs_status = 2 }
+					}
+					set_variable = { rs_status = 1 }
+				}
+				
+				else = {
+					set_variable = { rs_status = 2 }
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	topbar_rs_container = {
+		context_type = player_context
+		window_name = "topbar_rs_container"
+
+		visible = {
+			check_variable = { rs_status?2 = 2 }
+		}
+	}
+}
